@@ -1,0 +1,52 @@
+.add-news{
+    padding: 4rem 6rem;
+}
+.add-news h1{
+    color: #222;
+    padding: 2rem 0;
+}
+.message{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: rgb(243, 180, 64);
+    border-radius: 10px;
+    color: #222;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    color: #222;
+    padding: 1rem 0;
+}
+.box input{
+    height: 40px;
+    border: none;
+    background: #eeebeb;
+}
+.submit-btn{
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .3s ease-in-out;
+}
+.submit-btn:hover{
+    transform: scale(1.2);
+}
+
+
+
+@media (max-width: 850px){
+    .add-news{
+        padding: 4rem 1rem;
+    }
+}

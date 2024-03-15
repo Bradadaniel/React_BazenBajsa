@@ -1,0 +1,36 @@
+.newlist-container{
+    padding: 4rem 6rem;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+table th,
+table td{
+    padding: 1rem 2rem;
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+.btn-delete{
+    border: none;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: crimson;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+@media (max-width: 850px){
+    .newlist-container{
+        padding: 4rem 0;
+    }
+    .table {
+        overflow-x: auto;
+        max-width: 100%;
+      }
+      .new-list-table th, .new-list-table td {
+        overflow-wrap: break-word;
+        padding: 8px;
+      }
+}

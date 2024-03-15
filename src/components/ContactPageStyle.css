@@ -1,0 +1,27 @@
+.contact-page{
+    padding: 4rem 6rem;
+}
+.contact-page h1{
+    padding-bottom: 2rem;
+}
+.contact-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+@media (max-width: 850px){
+    .contact-page{
+        width: 100%;
+        padding: 4rem 0;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    iframe{
+        width: 380px;
+        height: 300px;
+    }
+}
