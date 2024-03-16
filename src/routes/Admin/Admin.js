@@ -1,6 +1,6 @@
 import React from 'react'
-import AddNews from '../components/AddNews';
-import NewsList from '../components/NewsList';
+import AddNews from '../../components/AddNews';
+import NewsList from '../../components/NewsList';
 
 function Admin() {
   return (

@@ -1,0 +1,9 @@
+{
+    "navbar":{
+        "home": "Početna"
+    },
+    "hero-home":{
+        "text": "Provedite deo leta sa nama!!",
+        "button": "Sveže vesti"
+    }
+}

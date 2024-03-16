@@ -1,0 +1,21 @@
+{
+    "navbar":{
+        "home": "Kezdőoldal"
+    },
+    "hero-home":{
+        "text": "Töltse velünk a nyara egy részét!",
+        "button": "Friss Hírek"
+    },
+    "hero-about":{
+        "text": "Töltse velünk a nyara egy részét!",
+        "button": "Friss Hírek"
+    },
+    "hero-priceing":{
+        "text": "Töltse velünk a nyara egy részét!",
+        "button": "Friss Hírek"
+    },
+    "hero-home":{
+    "text": "Töltse velünk a nyara egy részét!",
+    "button": "Friss Hírek"
+    }
+}

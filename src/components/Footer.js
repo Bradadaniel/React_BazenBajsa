@@ -10,10 +10,10 @@ function Footer() {
                 <p>Töltse velünk a nyara egy részét!</p>
             </div>
             <div>
-                <a href="/">
+                <a href="https://www.facebook.com/profile.php?id=100093803381540">
                     <i className="fa-brands fa-square-facebook"></i>
                 </a>
-                <a href="/">
+                <a href="https://www.instagram.com/bajsa.bazen?igsh=MXR4MGIwdGRzODE4aQ==">
                     <i className="fa-brands fa-square-instagram"></i>
                 </a>
             </div>
@@ -48,7 +48,7 @@ function Footer() {
                 <h4>Designer</h4>
                 <p>Daniel Brada</p>
                 <p>Kapcsolat:</p>
-                <a href="mailto:danibrada29@gmail.com">danibrada29@gmail.com</a>
+                <a href="mailto:danibrada29@gmail.com">Click</a>
             </div>
         </div>
         <div className="designed">© Copyright 2024. All Rights Reserved. </div>

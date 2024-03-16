@@ -49,6 +49,15 @@
 .nav-links.hidden{
     display: none;
 }
+.flag{
+    width: 40px;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+}
+.flag img{
+    filter: brightness(100%);
+}
 /*
 button{
     padding: 0.5rem;
@@ -64,7 +73,7 @@ button:hover{
     background-color: #151516;
     color: #fff;
 }*/
-@media screen and (max-width: 950px){
+@media screen and (max-width: 980px){
     .navbar-items{
         z-index: 99;
     }
@@ -104,5 +113,10 @@ button:hover{
     .menu-icons i{
         font-size: 1.2rem;
         color: #222;
+    }
+}
+@media screen and (max-width: 450px){
+    .navbar-items{
+        max-width: 360px;
     }
 }

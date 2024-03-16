@@ -6,8 +6,11 @@ import Destination from '../components/Destination';
 import News from '../components/News';
 import Footer from '../components/Footer';
 
+import { useTranslation } from 'react-i18next';
+
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <>
         <Navbar/>
@@ -15,8 +18,8 @@ function Home() {
         cName="hero"
         title = "BazenBajsa"
         heroImg = {Banner3}
-        text="Töltse velünk a nyara egy részét!"
-        buttonText="Friss Hírek"
+        text={t('hero-home.text')}
+        buttonText={t('hero-home.button')}
         url="#news"
         btnClass="show"
         />
