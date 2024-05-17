@@ -7,7 +7,8 @@ function AddNews() {
 
     const navigate = useNavigate();
     const[ptitle, setPtitle] = useState('');
-    const[ptext, setPtext] = useState('');
+    const[ptexthu, setPtexthu] = useState('');
+    const[ptextsr, setPtextsr] = useState('');
     const[pdate, setPdate] = useState('');
     const[pfile, setPfile] = useState('');
     const[message, setMessage]= useState('');
@@ -15,7 +16,8 @@ function AddNews() {
     const uploadProduct = async()=> {
         const formData = new FormData();
         formData.append('ptitle', ptitle);
-        formData.append('ptext', ptext);
+        formData.append('ptexthu', ptexthu);
+        formData.append('ptextsr', ptextsr);
         formData.append('pdate', pdate);
         formData.append('pfile', pfile);
         const response = await axios.post("http://localhost/Busniess/BajsaBazenSite/bajsabazen/api.php", formData, {
@@ -46,8 +48,13 @@ function AddNews() {
             </div>
 
             <div className="box">
-                <label className="box-title">Szöveg hozzáadása </label>
-                <input type="text" className='form-control' onChange={ (e) => setPtext(e.target.value)}/>
+                <label className="box-title">Szöveg hozzáadása Magyarul</label>
+                <input type="text" className='form-control' onChange={ (e) => setPtexthu(e.target.value)}/>
+            </div>
+
+            <div className="box">
+                <label className="box-title">Szöveg hozzáadása Szerbül</label>
+                <input type="text" className='form-control' onChange={ (e) => setPtextsr(e.target.value)}/>
             </div>
 
             <div className="box">

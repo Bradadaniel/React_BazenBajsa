@@ -70,16 +70,19 @@ switch ($method) {
         break;
 
     case "DELETE":
-        $path = explode('/', $_SERVER["REQUEST_URI"]);
-        $stmt = $pdo->prepare("DELETE FROM news WHERE id_news = ?");
-        $result = $stmt->execute([$path[4]]);
-
-        if ($result) {
-            echo json_encode(["success" => "The Record Deleted Successfully"]);
-        } else {
-            echo json_encode(["error" => "Please Check the Data!"]);
+        if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
+            $path = explode('/', $_SERVER["REQUEST_URI"]);
+            $id = end($path);
+            $stmt = $pdo->prepare("DELETE FROM news WHERE id_news = ?");
+            $result = $stmt->execute([$id]);
+        
+            if ($result) {
+                echo json_encode(["success" => "The Record Deleted Successfully"]);
+            } else {
+                echo json_encode(["error" => "Please Check the Data!"]);
+            }
+            return;
         }
-        return;
         break;
 }
 ?>
