@@ -1,18 +1,20 @@
 import React from 'react'
 import './AboutUsStyle.css'
 
+import { useTranslation } from 'react-i18next';
+
 function AboutUs() {
+  const { t } = useTranslation();
   return (
     <div className="about-container">
-        <h1>A történetünk</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.</p>
-        
-        <h1>Rólunk</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.</p>
-        
-        <h1>ide is lehet valami</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.</p>
-    
+        <h1>{t('about.story')}</h1>
+        <p>{t('about.story-text')}</p>    
+
+        <h1>{t('about.about-us')}</h1>
+        <p>{t('about.about-text')}</p>  
+
+        <h1>{t('about.more')}</h1>
+        <p>{t('about.more-text')}</p>    
     </div>
   )
 }

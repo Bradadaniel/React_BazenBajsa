@@ -25,8 +25,14 @@ export const MenuItems = [
         icon: "fa-solid fa-phone"
     },
     {
-        title: "Kapcsolat",
+        title: "admin",
         url: "/admin",
+        cName: "nav-links hidden",
+        icon: "fa-solid fa-phone"
+    },
+    {
+        title: "login",
+        url: "/login",
         cName: "nav-links hidden",
         icon: "fa-solid fa-phone"
     },

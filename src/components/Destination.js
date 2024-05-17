@@ -5,23 +5,25 @@ import Banner3 from '../img/banner3.jpg';
 import Banner2 from '../img/banner2.jpeg';
 import Banner1 from '../img/banner1.jpg';
 
+import { useTranslation } from 'react-i18next';
 
 const Destination = () => {
+    const { t } = useTranslation();
     return ( 
         <div className="destination" id='destination'>
-            <h1>Miért válasszon minket?</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>{t("home-description.dest-title")}</h1>
+            <p>{t("home-description.dest-title-under-text")}</p>
             <DestinationData
             cName="first-des"
-            heading="Lorem ipsum dolor sit."
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!"
+            heading={t("home-description.first-h2")}
+            text={t("home-description.second-p")}
             img1={Banner2}
             img2={Banner3}
             />
             <DestinationData
             cName="first-des-reverse"
-            heading="Lorem ipsum dolor sit."
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!"
+            heading={t("home-description.second-h2")}
+            text={t("home-description.second-p")}
             img1={Banner1}
             img2={Banner4}
             />

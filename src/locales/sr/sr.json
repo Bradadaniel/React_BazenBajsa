@@ -5,5 +5,64 @@
     "hero-home":{
         "text": "Provedite deo leta sa nama!!",
         "button": "Sveže vesti"
+    },
+    "hero-about":{
+        "title": "O nama",
+        "text": "Saznajte više o našoj priči!"
+    },
+    "about":{
+        "story":"Naša priča",
+        "story-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.",
+        "about-us": "O nama",
+        "about-text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.",
+        "more":"i ovde može biti nešto",
+        "more-text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem."
+    },
+    "hero-priceing":{
+        "title": "Cenovnik",
+        "text": "Proverite naše cene!"
+    },
+    "priceing":{
+        "priceing-title":"Cenovnik",
+        "priceing-entry":"Dnevna ulaznica",
+        "priceing-1":"0-7 godina",
+        "priceing-2":"Od 7 do 15 godina",
+        "priceing-3":"Od 15. godine",
+        "priceing-4":"Sezonska karta 2024",
+        "priceing-desc":"Stanovnici Bajsaija od sedam godina mogu da podnesu zahtev za Bajsai karticu u Telehazu, uz predočenje važeće lične karte, kartica je besplatna.",
+        "priceing-free":"besplatno",
+        "priceing-card":"Sa Bajsa karticom",
+        "priceing-card-1":"Bajsanski karta"
+    },
+    "hero-contact":{
+        "title": "Kontakt",
+        "text": "Naši kontakti!"
+    },
+    "home-description":{
+        "dest-title": "Zašto izabrati nas?",
+        "dest-title-under-text": "szerbLorem ipsum dolor sit amet.",
+        "first-h2": "szerbLorem ipsum dolor sit.",
+        "second-h2": "szerbLorem ipsum dolor sit.",
+        "first-p": "szerbLorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!",
+        "second-p": "szerbLorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!"
+    },
+    "footer":{
+        "footer-desc": "Provedite deo leta sa nama!",
+        "footer-first-box": "Linkovi",
+        "footer-first-box-1": "Zato što?",
+        "footer-first-box-2": "O nama",
+        "footer-first-box-3": "Cenovnik",
+        "footer-first-box-4": "Kontakt",
+        "footer-second-box": "Naše pristalice",
+        "footer-second-box-1": "Mesna zajednica Bajsai",
+        "footer-third-box": "Radno vreme",
+        "footer-third-box-1": "Ponedeljak-Nedelja",
+        "footer-third-box-2": "10-19h",
+        "footer-third-box-3": "Telefon",
+        "footer-third-box-4": "Adresa E-pošte",
+        "footer-fourth-box": "Designer",
+        "footer-fourth-box-1": "Daniel Brada",
+        "footer-fourth-box-2": "Kontakt:",
+        "footer-fourth-box-3": "Click"
     }
 }

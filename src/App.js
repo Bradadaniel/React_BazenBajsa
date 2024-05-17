@@ -10,6 +10,7 @@ import './i18n';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Login from "./routes/Admin/Login";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/priceing" element={<Priceing/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/admin" element={<Admin/>}/>
+          <Route path="/login" element={<Login/>}/>
         </Routes>
     </div>
   );

@@ -1,43 +1,46 @@
 import React from 'react'
 import './PriceingStyle.css'
 
+import { useTranslation } from 'react-i18next';
+
 function PriceingPage() {
+  const { t } = useTranslation();
   return (
     <div className="priceing">
-      <h1>Árjegyzék</h1>
+      <h1>{t('priceing.priceing-title')}</h1>
       <div className="price-container" data-aos='fade-up'>
         <table>
           <tr>
-            <th colspan='2'>Napi Belépőjegy</th>
-            <th style={{ backgroundColor: '#01959a', color: '#fff' }}>Bajsa kártyával</th>
+            <th colspan='2'>{t('priceing.priceing-entry')}</th>
+            <th style={{ backgroundColor: '#01959a', color: '#fff' }}>{t('priceing.priceing-card')}</th>
           </tr>
 
           <tr>
-            <td>0-7 éves korig</td>
-            <td>ingyenes</td>
-            <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>ingyenes</td>
+            <td>{t('priceing.priceing-1')}</td>
+            <td>{t('priceing.priceing-free')}</td>
+            <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>{t('priceing.priceing-free')}</td>
           </tr>
 
           <tr>
-            <td>7-15 éves korig</td>
+            <td>{t('priceing.priceing-2')}</td>
             <td>150,00 din</td>
-            <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>ingyenes</td>
+            <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>{t('priceing.priceing-free')}</td>
           </tr>
 
           <tr>
-            <td>15 éves kortól</td>
+            <td>{t('priceing.priceing-3')}</td>
             <td>250,00 din</td>
             <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>200,00 din</td>
           </tr>
 
           <tr>
-            <td>Szezon jegy 2024</td>
+            <td>{t('priceing.priceing-3')}</td>
             <td>4000,00 din</td>
             <td  style={{ backgroundColor: '#01959a', color: '#fff' }}>3000,00 din</td>
           </tr>
         </table>
         <div className="price-text">
-          <p>A <span>Bajsai kártyát</span> a Bajsai lakosok hét éves kortól a Teleházban igényelhetik, érvényes igazolvány felmutatásával, a kártya igénylése ingyenes.</p>
+          <p> <span>{t('priceing.priceing-card-1')} </span>{t('priceing.priceing-desc')}</p>
         </div>
       </div>
     </div>

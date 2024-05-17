@@ -7,15 +7,62 @@
         "button": "Friss Hírek"
     },
     "hero-about":{
-        "text": "Töltse velünk a nyara egy részét!",
-        "button": "Friss Hírek"
+        "title": "Rólunk",
+        "text": "Tudjon meg többet a történetünkröl!"
+    },
+    "about":{
+        "story":"A történetünk",
+        "story-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.",
+        "about-us": "Rólunk",
+        "about-text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum voluptatibus. Perspiciatis ab cupiditate eius voluptate quis corrupti sapiente consequuntur! Maiores cumque ipsum, debitis qui voluptatibus delectus. Possimus maxime quae pariatur culpa adipisci corporis tempora expedita dolores enim error doloribus modi optio quod beatae at nihil dolor, eius inventore quis rerum accusantium autem placeat quo tempore! Dicta cupiditate, voluptatem voluptas nostrum tenetur, nesciunt similique eum quas neque consectetur harum doloribus explicabo quis maiores temporibus suscipit consequatur blanditiis adipisci ducimus nam. Voluptas laborum sequi eaque animi assumenda ut nulla! Non mollitia saepe hic? Possimus vero placeat, fugiat quasi quod recusandae nesciunt libero, voluptate ad eaque temporibus excepturi, ipsa commodi nemo nam voluptatibus dolor minima quis porro! Assumenda voluptate at sit commodi voluptatem? Libero itaque, deserunt qui dolores omnis necessitatibus atque laborum ipsa laudantium odio veniam natus illum iusto obcaecati sapiente maxime! Nulla eos sunt quas animi ipsam praesentium numquam sit? Rem unde neque ad consequuntur recusandae aspernatur, obcaecati optio, ex, necessitatibus tempore ullam ipsam est quo. Aliquid saepe repellendus mollitia molestiae quaerat possimus hic iste! Beatae ut aspernatur dignissimos aut dolor voluptatem, nulla tenetur illum eaque necessitatibus, laudantium voluptas debitis soluta, autem quasi suscipit corrupti ducimus eligendi cum expedita quaerat? Rem.",
+        "more":"ide is lehet valami",
+        "more-text":""
     },
     "hero-priceing":{
-        "text": "Töltse velünk a nyara egy részét!",
-        "button": "Friss Hírek"
+        "title": "Árjegyzék",
+        "text": "Tekintse meg az árainkat!"
     },
-    "hero-home":{
-    "text": "Töltse velünk a nyara egy részét!",
-    "button": "Friss Hírek"
+    "priceing":{
+        "priceing-title":"Árjegyzék",
+        "priceing-entry":"Napi Belépőjegy",
+        "priceing-1":"0-7 éves korig",
+        "priceing-2":"7-15 éves korig",
+        "priceing-3":"15 éves kortól",
+        "priceing-4":"Szezon jegy 2024",
+        "priceing-desc":"A Bajsai kártyát a Bajsai lakosok hét éves kortól a Teleházban igényelhetik, érvényes igazolvány felmutatásával, a kártya igénylése ingyenes.",
+        "priceing-free":"ingyenes",
+        "priceing-card":"Bajsa kártyával",
+        "priceing-card-1":"A Bajsai kártyát"
+    },
+    "hero-contact":{
+        "title": "Kapcsolat",
+        "text": "Elérhetőségeink!"
+    },
+    "home-description":{
+        "dest-title": "Miért válasszon minket?",
+        "dest-title-under-text": "magyarLorem ipsum dolor sit amet.",
+        "first-h2": "magyarLorem ipsum dolor sit.",
+        "second-h2": "magyarLorem ipsum dolor sit.",
+        "first-p": "magyarLorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!",
+        "second-p": "magyarLorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae quaerat sequi, officia odio omnis, quis minus voluptate a ratione dolore. Ipsam aliquam vero tempora delectus blanditiis tenetur debitis dolorem officia laborum id iusto, consequatur sed. Labore, delectus quae natus debitis eos animi odit quod numquam asperiores accusamus iusto nisi!"
+    },
+    "footer":{
+        "footer-desc": "Töltse velünk a nyara egy részét!",
+        "footer-first-box": "Linkek",
+        "footer-first-box-1": "Miért mi?",
+        "footer-first-box-2": "Rólunk",
+        "footer-first-box-3": "Árjegyzék",
+        "footer-first-box-4": "Kapcsolat",
+        "footer-second-box": "Támogatóink",
+        "footer-second-box-1": "Bajsai Helyiközösség",
+        "footer-third-box": "Nyitvatartás",
+        "footer-third-box-1": "Hetfő-Vasárnap",
+        "footer-third-box-2": "10-19h",
+        "footer-third-box-3": "Telefon",
+        "footer-third-box-4": "Email cím",
+        "footer-fourth-box": "Designer",
+        "footer-fourth-box-1": "Daniel Brada",
+        "footer-fourth-box-2": "Kapcsolat:",
+        "footer-fourth-box-3": "Click"
     }
 }
