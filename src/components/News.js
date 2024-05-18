@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './NewsStyle.css';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 function News() {
   const [news, setNews] = useState([]);
@@ -26,8 +28,24 @@ function News() {
               <img src={`http://localhost/Busniess/BajsaBazenSite/bajsabazen/images/${item.pfile}`} alt="news-img" />
             </div>
             <h4>{item.ptitle}</h4>
-            <p>{item.ptext}</p>
             <p>{item.pdate}</p>
+            <Popup trigger={<button className='button'><i className="fa-regular fa-eye"></i></button>} modal>
+              {close =>(
+                <div className="modal">
+                  <button className='close' onClick={close}><i className="fa-solid fa-xmark"></i></button>
+                  <div className="header"><h4>{item.ptitle}</h4></div>
+                  <div className="content">
+                    <br />
+                    <p>{item.ptexthu}</p>
+                    <br />
+                    <p>{item.ptextsr}</p>
+                    <br />
+                    <b>{item.pdate}</b>
+                  </div>
+                </div>
+              )
+              }
+            </Popup>
           </div>
         ))}
       </div>

@@ -18,7 +18,7 @@ switch ($method) {
             echo "Get Api Single Row";
             die;
         } else {
-            $stmt = $pdo->query("SELECT * FROM news");
+            $stmt = $pdo->query("SELECT * FROM news ORDER BY pdate DESC");
             $allproduct = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             if ($allproduct) {
