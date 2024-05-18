@@ -1,6 +1,9 @@
 {
     "navbar":{
-        "home": "Kezdőoldal"
+        "home": "Kezdőoldal",
+        "about": "Rólunk",
+        "pricing": "Árjegyzék",
+        "contact": "Kapcsolat"
     },
     "hero-home":{
         "text": "Töltse velünk a nyara egy részét!",

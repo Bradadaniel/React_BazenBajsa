@@ -1,6 +1,9 @@
 {
     "navbar":{
-        "home": "Početna"
+        "home": "Početna",
+        "about": "O nama",
+        "pricing": "Cenovnik",
+        "contact": "Kontakt"
     },
     "hero-home":{
         "text": "Provedite deo leta sa nama!!",
